@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monospace</title>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        /* CSS styling goes here */
+        nav ul ul {
+            display: none;
+        }
+
+        nav ul li:hover>ul {
+            display: inherit;
+        }
+
+        nav ul {
+            list-style: none;
+            position: relative;
+            display: inline-block;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 20px 20px;
+            text-decoration: olive;
+            color: #1028d8;
+        }
+
+        nav ul ul {
+            background-color: #0b75c1;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+        }
+
+        nav ul ul li {
+            float: none;
+            position: relative;
+        }
+
+        nav ul ul li a {
+            padding: 10px 20px;
+            color: #f2eded;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #e0e0e0;
+        }
+
+        nav ul li a:hover {
+            background-color: #0cadd9;
+        }
+
+        nav ul li:hover>a {
+            color: #0f3ed6;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="head">
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <a href="#products">Products</a>
+                    <ul>
+                        <li><a href="camera.html">Camera</a></li>
+                        <li><a href="fitness_t.html">Fitness Tracker</a></li>
+                        <li><a href="game_pad.html">Game Pad</a></li>
+                        <li><a href="Personal_computers.html">Personal computers</a></li>
+                        <li><a href="w_speakers.html">Wireless Speakers</a></li>
+                        <li><a href="watches.html">Watches</a></li>
+                        <li><a href="other_product.html">Other Products</a></li>
+                    </ul>
+                </li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#promo"></a>Offers</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <!-- About Us content goes here -->
+            <a href="about.html"></a>
+        </section>
+
+        <section id="products">
+            <div class="product">
+                <!-- Product 1 content goes here -->
+                <!-- <a href="camera.html"></a> -->
+               
+            </div>
+            <div class="shopping">
+                <!-- Product 2 content goes here -->
+                <a href="fitness_t.html">FITNESS TRACKER</a>
+                <div class="shopping">
+                    <div>
+                        <img src="images/fitness_tracker.jpeg" alt="fitness tracker">
+                    </div>
+                    <div class="buy">
+                        <h2><span><a href="">Buy Now</a></span>
+                            <span><a href="">Add to Cart</a></span>
+                        </h2>
+                    </div>
+                </div>
+            </div><p></p>
+            <div class="product">
+                <!-- Product 3 content goes here -->
+                <a href="game_pad.html"> GAME PADS</a>
+                <div class="shopping">
+                    <div><img src="images/gamepad.jpeg" alt="Game pads "></div>
+                    <div class="buy">
+                        <h2><span><a href="">Buy Now</a></span>
+                            <span><a href="">Add to Cart</a></span>
+                        </h2>
+                    </div>
+                </div>
+            </div><p></p>
+            <div class="product">
+                <!-- Product 4 content goes here -->
+                <a href="Personal_computers.html">PERSONAL COMPUTERS</a>
+            </div><p></p>
+            <div class="product">
+                <!-- Product 5 content goes here -->
+                <a href="w_speakers.html">WIRELESS SPEAKERS</a>
+            </div>
+            <p></p>
+            <div class="product">
+                <!-- Product 6 content goes here -->
+                <a href="watches.html"> WATCHES</a>
+            </div>
+            <p></p>
+            <div class="product">
+                <!-- Product 7 content goes here -->
+               <a href="other_product.html"> OTHER PRODUCTS</a>
+            </div>
+        </section>
+
+        <section id="login">
+            <!-- login page goes here -->
+
+        </section>
+    </main>
+
+    <div>
+        <footer class="footer">
+           <span class="sponsor">Sponsored by: IZEP</span>
+           
+           <span> powered by <a href=""><img src="images/techstar.ico.jpg" alt="">TechStars </span>
+        </footer>
+    </div> 
+</body>
+
+</html>
