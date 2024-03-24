@@ -1,0 +1,19 @@
+#cam1{
+ height: 300px;
+width: 260px;
+
+}
+#article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+#c_home{
+width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
